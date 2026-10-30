@@ -1,0 +1,223 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        img {
+            border: 0;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .no-link a {
+            color: inherit !important;
+            text-decoration: none !important;
+        }
+
+        @media only screen and (max-width: 620px) {
+            .shell {
+                width: 100% !important;
+            }
+
+            .pad-lr {
+                padding-left: 22px !important;
+                padding-right: 22px !important;
+            }
+
+            .h1 {
+                font-size: 21px !important;
+            }
+
+            .greeting {
+                font-size: 19px !important;
+            }
+
+            .btn-cell a {
+                display: block !important;
+                width: auto !important;
+            }
+
+            .logo {
+                width: 150px !important;
+                height: auto !important;
+            }
+        }
+    </style>
+</head>
+
+<body
+    style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important; margin: 0; padding: 0;">
+
+    <div
+        style="display:none; font-size:1px; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden; mso-hide:all;">
+        Your video interpreting session has moved to {{currentWindow}}.
+        &#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
+    </div>
+
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+        style="background-color:#f3f7fc;">
+        <tr>
+            <td align="center" style="padding:32px 12px;">
+
+                <table role="presentation" class="shell" width="600" cellpadding="0" cellspacing="0" border="0"
+                    style="width:600px; max-width:600px;">
+
+                    <tr>
+                        <td class="pad-lr" align="left" bgcolor="#f5faff"
+                            style="padding:30px 40px 26px; background-color:#f5faff; border:1px solid #dce8f7; border-bottom:0; border-radius:16px 16px 0 0;">
+
+                            <img class="logo" src="https://baystateinterpreters.com/assets/img/baystate_logo.png"
+                                width="175" alt="{{companyName}}"
+                                style="display:block; width:175px; max-width:175px; height:auto; border:0;" />
+
+                            <p
+                                style="margin:24px 0 7px; color:#4289c8; font-size:14px; font-weight:bold; line-height:16px; text-transform:uppercase; letter-spacing:1px;">
+                                Video interpreting session
+                            </p>
+
+                            <h1 class="h1"
+                                style="margin:0; color:#35353a; font-size:24px; font-weight:bold; line-height:30px;">
+                                Your session has been rescheduled
+                            </h1>
+
+                            <p style="margin:8px 0 0; color:#64748b; font-size:14px; line-height:20px;">
+                                The time has changed. Your link stays the same.
+                            </p>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="pad-lr" align="left" bgcolor="#ffffff"
+                            style="padding:34px 40px 36px; background-color:#ffffff; border:1px solid #e0e8f2; border-top:0; border-radius:0 0 16px 16px;">
+
+                            <h2 class="greeting"
+                                style="margin:0; color:#35353a; font-size:21px; font-weight:bold; line-height:28px;">
+                                Hello {{displayName}},
+                            </h2>
+
+                            <p style="margin:12px 0 0; color:#526176; font-size:15px; line-height:24px;">
+                                Your video interpreting session{{#if topic}} &mdash;
+                                <span style="color:#35353a; font-weight:600;">{{topic}}</span>
+                                job{{/if}} at {{companyName}} has been moved to a new time.
+                            </p>
+
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                                style="margin-top:24px;">
+                                <tr>
+                                    <td width="4" bgcolor="#cbd5e1"
+                                        style="width:4px; background-color:#cbd5e1; font-size:0; line-height:0;">&nbsp;
+                                    </td>
+                                    <td bgcolor="#f8fafc"
+                                        style="padding:16px 18px; background-color:#f8fafc; border:1px solid #e2e8f0; border-left:0;">
+
+                                        <p
+                                            style="margin:0 0 4px; color:#64748b; font-size:13px; font-weight:500; line-height:15px; letter-spacing:.6px;">
+                                            Previous time
+                                        </p>
+                                        <p class="no-link"
+                                            style="margin:0; color:#94a3b8; font-size:16px; font-weight:600; line-height:21px; text-decoration:line-through;">
+                                            {{previousWindow}}
+                                        </p>
+
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                                style="margin-top:12px;">
+                                <tr>
+                                    <td width="4" bgcolor="#4289c8"
+                                        style="width:4px; background-color:#4289c8; font-size:0; line-height:0;">&nbsp;
+                                    </td>
+                                    <td bgcolor="#f5f9ff"
+                                        style="padding:16px 18px; background-color:#f5f9ff; border:1px solid #dceafe; border-left:0;">
+
+                                        <p
+                                            style="margin:0 0 4px; color:#64748b; font-size:13px; font-weight:500; line-height:15px; letter-spacing:.6px;">
+                                            New time
+                                        </p>
+                                        <p class="no-link"
+                                            style="margin:0; color:#35353a; font-size:16px; font-weight:600; line-height:21px;">
+                                            {{currentWindow}}
+                                        </p>
+
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td class="btn-cell" align="center" style="padding:28px 0 8px;">
+                                        <a href="{{inviteLink}}"
+                                            style="display:inline-block; width:260px; padding:15px 0; background-color:#4289c8; border-radius:8px; color:#ffffff; font-size:15px; font-weight:bold; line-height:18px; text-align:center; text-decoration:none;">
+                                            Join the session
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding:0 0 26px;">
+                                        <p style="margin:0; color:#94a3b8; font-size:12px; font-weight:500; line-height:16px;">
+                                            The link opens shortly before the new start time.
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td class="no-link" style="padding:0;">
+                                        <p style="margin:0; color:#526176; font-size:15px; line-height:24px;">
+                                            This link is personal to you &mdash; please do not forward it.
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                                style="margin-top:22px;">
+                                <tr>
+                                    <td bgcolor="#f7faff" class="no-link"
+                                        style="padding:13px 16px; background-color:#f7faff; border:1px solid #dbe8fb; border-radius:8px; color:#64748b; font-size:14px; line-height:18px; word-break:break-all;">
+                                        Reference <span style="color:#263247; font-weight:bold;">{{sessionReference}}</span>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="center" style="padding:22px 20px 4px;">
+                            <p style="margin:0 0 5px; color:#94a3b8; font-size:11px; line-height:17px;">
+                                &copy; {{companyName}}. All rights reserved.
+                            </p>
+                        </td>
+                    </tr>
+
+                </table>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
